@@ -1,0 +1,9 @@
+/**
+ * 数据库常量文件  自己封装的DataConnection.jar需要传入数据库常量的类
+ */
+public class DataAttribute {
+    public static final String url = "jdbc:mysql://localhost:3306/demo1?default-character-set=utf8";//数据库地址 demo1为数据库名  localhost:3306    主机名 端口号  default-character-set=utf8  默认编码方式
+    public static final String username = "root";//数据库用户名
+    public static final String password = "123456";//数据库密码
+    public static final String driver = "com.mysql.cj.jdbc.Driver";//mysql驱动
+}
